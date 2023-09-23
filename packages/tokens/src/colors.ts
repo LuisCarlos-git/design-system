@@ -82,4 +82,4 @@ export const colors = {
   quasarNeutral800: '#202938',
   quasarNeutral900: '#111828',
   quasarNeutral950: '#0c0c0e',
-} as const;
+} as const

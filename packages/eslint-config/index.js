@@ -27,16 +27,20 @@ module.exports = {
   },
   plugins: ["@typescript-eslint", "react", "prettier"],
   rules: {
-    "prettier/prettier": ["error", {
-      'printWidth': 80,
-      'tabWidth': 2,
-      'singleQuote': true,
-      'trailingComma': 'all',
-      'arrowParens': 'always',
-      'semi': true,
-      'endOfLine': 'auto',
-    }],
+    "prettier/prettier": [
+      "error",
+      {
+        printWidth: 80,
+        tabWidth: 2,
+        singleQuote: true,
+        trailingComma: "all",
+        arrowParens: "always",
+        semi: true,
+        endOfLine: "auto",
+      },
+    ],
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "react/react-in-jsx-scope": "off",
   },
 };
