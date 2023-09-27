@@ -1,5 +1,6 @@
-import { colors } from '@quasar/tokens';
+import { styled } from './styles';
 
-export function App() {
-  return <h1 style={{ color: colors.quasarDanger100 }}>ola</h1>;
-}
+export const Button = styled('button', {
+  width: '200px',
+  background: '$quasarInfo400',
+});

@@ -2,7 +2,7 @@ import { createStitches } from '@stitches/react';
 
 import { colors, fontSizes, radii } from '@quasar/tokens';
 
-export const theme = createStitches({
+export const { styled } = createStitches({
   theme: {
     colors,
     fontSizes,
