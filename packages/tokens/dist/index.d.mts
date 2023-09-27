@@ -78,20 +78,20 @@ declare const colors: {
     readonly quasarNeutral950: "#0c0c0e";
 };
 
-declare const fontSize: {
+declare const fontSizes: {
     readonly xs: "0.75rem";
     readonly sm: "0.875rem";
     readonly base: "1rem";
     readonly lg: "1.125rem";
     readonly xl: "1.25rem";
-    readonly "2xl": "1.5rem";
-    readonly "3xl": "1.875rem";
-    readonly "4xl": "2.25rem";
-    readonly "5xl": "3rem";
-    readonly "6xl": "3.75rem";
-    readonly "7xl": "4.5rem";
-    readonly "8xl": "6rem";
-    readonly "9xl": "8rem";
+    readonly '2xl': "1.5rem";
+    readonly '3xl': "1.875rem";
+    readonly '4xl': "2.25rem";
+    readonly '5xl': "3rem";
+    readonly '6xl': "3.75rem";
+    readonly '7xl': "4.5rem";
+    readonly '8xl': "6rem";
+    readonly '9xl': "8rem";
 };
 
 declare const radii: {
@@ -119,4 +119,4 @@ declare const radii: {
     readonly full: "9999px";
 };
 
-export { colors, fontSize, radii };
+export { colors, fontSizes, radii };

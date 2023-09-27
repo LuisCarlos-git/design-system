@@ -80,7 +80,7 @@ var colors = {
 };
 
 // src/font-size.ts
-var fontSize = {
+var fontSizes = {
   xs: "0.75rem",
   sm: "0.875rem",
   base: "1rem",
@@ -123,6 +123,6 @@ var radii = {
 };
 export {
   colors,
-  fontSize,
+  fontSizes,
   radii
 };

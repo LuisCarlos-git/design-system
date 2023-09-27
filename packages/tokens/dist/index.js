@@ -21,7 +21,7 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 var src_exports = {};
 __export(src_exports, {
   colors: () => colors,
-  fontSize: () => fontSize,
+  fontSizes: () => fontSizes,
   radii: () => radii
 });
 module.exports = __toCommonJS(src_exports);
@@ -108,7 +108,7 @@ var colors = {
 };
 
 // src/font-size.ts
-var fontSize = {
+var fontSizes = {
   xs: "0.75rem",
   sm: "0.875rem",
   base: "1rem",
@@ -152,6 +152,6 @@ var radii = {
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   colors,
-  fontSize,
+  fontSizes,
   radii
 });
